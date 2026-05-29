@@ -1111,26 +1111,10 @@ const PAGE_BODY_RAW = `
 
       <div class="faq-item">
         <button class="faq-q">
-          <span class="faq-q-text">Para quem é o OrçaElétrico Pro?</span>
-          <div class="faq-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg></div>
-        </button>
-        <div class="faq-a">Para eletricistas autônomos e pequenas equipes que fazem instalações residenciais e comerciais e perdem tempo ou dinheiro na hora de montar o orçamento. Se você ainda calcula no papel, de cabeça ou por planilha, o app foi feito para você.</div>
-      </div>
-
-      <div class="faq-item">
-        <button class="faq-q">
           <span class="faq-q-text">Nunca usei app assim — vou conseguir usar?</span>
           <div class="faq-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg></div>
         </button>
         <div class="faq-a">Sim. Em 5 minutos você já gera seu primeiro orçamento. O app foi criado por um eletricista pensando em outros eletricistas — a interface é direta, sem complicação. Se tiver qualquer dúvida, o suporte VIP te atende.</div>
-      </div>
-
-      <div class="faq-item">
-        <button class="faq-q">
-          <span class="faq-q-text">Funciona para instalações comerciais também?</span>
-          <div class="faq-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg></div>
-        </button>
-        <div class="faq-a">Sim. O app calcula para instalação residencial, comercial, quadro de distribuição, iluminação, tomadas e interruptores, e SPDA. Você escolhe o tipo de serviço e o app adapta o cálculo de material automaticamente.</div>
       </div>
 
       <div class="faq-item">
@@ -1147,14 +1131,6 @@ const PAGE_BODY_RAW = `
           <div class="faq-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg></div>
         </button>
         <div class="faq-a">Após a compra você recebe o acesso imediatamente por e-mail. O app funciona direto no navegador do celular, tablet ou computador — sem precisar baixar nada da loja de aplicativos. Funciona em Android, iPhone e qualquer sistema.</div>
-      </div>
-
-      <div class="faq-item">
-        <button class="faq-q">
-          <span class="faq-q-text">Funciona sem internet na obra?</span>
-          <div class="faq-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg></div>
-        </button>
-        <div class="faq-a">Sim. O OrçaElétrico Pro funciona offline — sem precisar de sinal de celular ou Wi-Fi. Perfeito para obras em locais com sinal ruim ou inexistente. É só abrir o app e calcular normalmente.</div>
       </div>
 
       <div class="faq-item">
