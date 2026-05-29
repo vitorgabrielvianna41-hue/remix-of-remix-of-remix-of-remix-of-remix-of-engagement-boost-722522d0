@@ -531,6 +531,38 @@ header::after {
   transition: all .25s;
 }
 .test-dots button.active { background: var(--yellow-dark); width: 26px; border-radius: 5px; }
+.test-strip-wrap {
+  margin-top: 3rem;
+  position: relative;
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent);
+          mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent);
+}
+.test-strip {
+  display: flex;
+  gap: 1.25rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 0 8%;
+  scrollbar-width: none;
+}
+.test-strip::-webkit-scrollbar { display: none; }
+.test-strip-item {
+  flex: 0 0 280px;
+  scroll-snap-align: center;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #0A0E1A;
+  box-shadow: 0 20px 60px rgba(0,0,0,.18);
+}
+.test-strip-item img { width: 100%; height: auto; display: block; }
+@media (max-width: 720px) {
+  .test-strip-item { flex-basis: 78%; }
+  .test-strip-wrap {
+    -webkit-mask-image: linear-gradient(to right, transparent, #000 6%, #000 94%, transparent);
+            mask-image: linear-gradient(to right, transparent, #000 6%, #000 94%, transparent);
+  }
+}
 @media (max-width: 540px) {
   .test-prev { left: 4px; }
   .test-next { right: 4px; }
