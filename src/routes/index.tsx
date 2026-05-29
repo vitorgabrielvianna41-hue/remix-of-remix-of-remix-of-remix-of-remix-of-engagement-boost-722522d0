@@ -972,8 +972,38 @@ const PAGE_BODY_RAW = `
     </div>
     <div class="plans-grid">
 
-
-
+      <!-- Básico -->
+      <div class="plan-card">
+        <div class="plan-name display">Plano Básico</div>
+        <p class="plan-tag">Ferramenta essencial</p>
+        <div class="plan-items">
+          <div class="plan-item plan-item-gray">
+            <svg class="plan-icon check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+            APP OrçaElétrico Pro
+          </div>
+          <div class="plan-item plan-item-gray">
+            <svg class="plan-icon check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+            Cálculo automático de material, custo e lucro
+          </div>
+          <div class="plan-item plan-item-gray">
+            <svg class="plan-icon check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+            Orçamento profissional em PDF
+          </div>
+          <div class="plan-item plan-item-gray">
+            <svg class="plan-icon check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+            Acesso vitalício
+          </div>
+          <div class="plan-item" style="color:#B0BAC9">
+            <svg class="plan-icon x-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6M9 9l6 6"/></svg>
+            Sem bônus exclusivos
+          </div>
+        </div>
+        <div class="plan-price">
+          <div class="plan-price-val display">R$ 10,00</div>
+          <p class="plan-price-period">Pagamento único</p>
+        </div>
+        <a href="https://pay.lowify.com.br/go.php?offer=jqv9t21" target="_blank" rel="noopener" class="btn-primary btn-dark" style="width:100%;padding:.9rem 1.5rem;font-size:1.1rem">Quero o plano básico</a>
+      </div>
 
       <!-- Completo -->
       <div class="plan-card plan-card-featured">
