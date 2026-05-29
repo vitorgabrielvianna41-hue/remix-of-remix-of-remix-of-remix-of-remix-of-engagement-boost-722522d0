@@ -1030,17 +1030,14 @@ const PAGE_BODY_RAW = `
     <p style="text-align:center;color:var(--yellow-dark);font-weight:700;font-size:.9rem;text-transform:uppercase;letter-spacing:.1em;margin-top:.5rem">
       Resultados de quem parou de orçar no chute
     </p>
-    <div class="test-carousel" id="testCarousel">
-      <button class="test-nav test-prev" id="testPrev" aria-label="Anterior">‹</button>
-      <div class="test-track" id="testTrack">
-        <div class="test-slide"><img src="__TEST1__" alt="Depoimento WhatsApp Carlos Cliente" loading="lazy" /></div>
-        <div class="test-slide"><img src="__TEST2__" alt="Depoimento WhatsApp Luiz Cliente" loading="lazy" /></div>
-        <div class="test-slide"><img src="__TEST3__" alt="Depoimento WhatsApp André Cliente" loading="lazy" /></div>
-        <div class="test-slide"><img src="__TEST4__" alt="Depoimento WhatsApp Marcos Cliente" loading="lazy" /></div>
-        <div class="test-slide"><img src="__TEST5__" alt="Depoimento WhatsApp Jonathan Cliente" loading="lazy" /></div>
+    <div class="test-strip-wrap">
+      <div class="test-strip">
+        <div class="test-strip-item"><img src="__TEST1__" alt="Depoimento WhatsApp Carlos Cliente" loading="lazy" /></div>
+        <div class="test-strip-item"><img src="__TEST2__" alt="Depoimento WhatsApp Luiz Cliente" loading="lazy" /></div>
+        <div class="test-strip-item"><img src="__TEST3__" alt="Depoimento WhatsApp André Cliente" loading="lazy" /></div>
+        <div class="test-strip-item"><img src="__TEST4__" alt="Depoimento WhatsApp Marcos Cliente" loading="lazy" /></div>
+        <div class="test-strip-item"><img src="__TEST5__" alt="Depoimento WhatsApp Jonathan Cliente" loading="lazy" /></div>
       </div>
-      <button class="test-nav test-next" id="testNext" aria-label="Próximo">›</button>
-      <div class="test-dots" id="testDots"></div>
     </div>
   </div>
 </section>
