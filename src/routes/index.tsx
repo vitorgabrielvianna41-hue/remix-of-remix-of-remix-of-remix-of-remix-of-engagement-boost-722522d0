@@ -714,7 +714,7 @@ const PAGE_BODY_RAW = `
         Direto do Celular
       </h1>
       <p class="hero-sub">
-        Você informa o tipo de instalação e a metragem, o app calcula fio por bitola, disjuntores, tomadas e o seu lucro — e gera o orçamento em PDF na hora.
+        Calcule fio, disjuntor, tomadas e seu lucro automaticamente. Mande PDF profissional pelo WhatsApp e feche mais serviços — sem chute, sem mensalidade.
       </p>
       <a href="#pricing" class="btn-primary">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
