@@ -541,19 +541,21 @@ header::after {
 .test-strip {
   display: flex;
   gap: 1.25rem;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  padding: 0 8%;
-  scrollbar-width: none;
+  width: max-content;
+  padding: 0 .5rem;
+  animation: testScroll 40s linear infinite;
 }
-.test-strip::-webkit-scrollbar { display: none; }
+.test-strip-wrap:hover .test-strip { animation-play-state: paused; }
 .test-strip-item {
   flex: 0 0 280px;
-  scroll-snap-align: center;
   border-radius: 20px;
   overflow: hidden;
   background: #0A0E1A;
   box-shadow: 0 20px 60px rgba(0,0,0,.18);
+}
+@keyframes testScroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
 }
 .test-strip-item img { width: 100%; height: auto; display: block; }
 @media (max-width: 720px) {
