@@ -1071,6 +1071,11 @@ const PAGE_BODY_RAW = `
         <div class="test-strip-item"><img src="__TEST3__" alt="Depoimento WhatsApp André Cliente" loading="lazy" /></div>
         <div class="test-strip-item"><img src="__TEST4__" alt="Depoimento WhatsApp Marcos Cliente" loading="lazy" /></div>
         <div class="test-strip-item"><img src="__TEST5__" alt="Depoimento WhatsApp Jonathan Cliente" loading="lazy" /></div>
+        <div class="test-strip-item" aria-hidden="true"><img src="__TEST1__" alt="" loading="lazy" /></div>
+        <div class="test-strip-item" aria-hidden="true"><img src="__TEST2__" alt="" loading="lazy" /></div>
+        <div class="test-strip-item" aria-hidden="true"><img src="__TEST3__" alt="" loading="lazy" /></div>
+        <div class="test-strip-item" aria-hidden="true"><img src="__TEST4__" alt="" loading="lazy" /></div>
+        <div class="test-strip-item" aria-hidden="true"><img src="__TEST5__" alt="" loading="lazy" /></div>
       </div>
     </div>
   </div>
