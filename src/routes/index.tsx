@@ -710,8 +710,7 @@ const PAGE_BODY_RAW = `
       </div>
       <h1 class="hero-h1">
         Orçamento de Eletricista<br>
-        em <em>PDF</em> em <em>3 Minutos</em><br>
-        Direto do Celular
+        em <em>PDF</em> em <em>3 Minutos</em>
       </h1>
       <p class="hero-sub">
         Calcule fio, disjuntor, tomadas e seu lucro automaticamente. Mande PDF profissional pelo WhatsApp e feche mais serviços — sem chute, sem mensalidade.
