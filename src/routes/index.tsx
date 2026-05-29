@@ -441,7 +441,8 @@ header::after {
 /* ── PRICING ── */
 .pricing-section { padding: 5rem 0; background: #fff; }
 .plans-grid {
-  display: grid; grid-template-columns: 1fr 1fr;
+  display: grid; grid-template-columns: minmax(0, 480px);
+  justify-content: center;
   gap: 2rem; max-width: 860px; margin: 3.5rem auto 0;
   align-items: stretch;
 }
