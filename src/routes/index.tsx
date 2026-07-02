@@ -1082,7 +1082,7 @@ const PAGE_BODY_RAW = `
           <div class="plan-price-val display plan-price-val-white">€19,90</div>
           <p class="plan-price-period plan-price-period-yellow">Pagamento único</p>
         </div>
-        <a href="https://pay.lowify.com.br/checkout.php?product_id=7LUkS8" target="_blank" rel="noopener" class="btn-primary" style="width:100%;padding:.9rem 1.5rem;font-size:1.1rem">
+        <a href="https://pay.hotmart.com/R106576583R?off=h0rdltvi" target="_blank" rel="noopener" class="btn-primary" style="width:100%;padding:.9rem 1.5rem;font-size:1.1rem">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
           Quero o plano premium
         </a>
