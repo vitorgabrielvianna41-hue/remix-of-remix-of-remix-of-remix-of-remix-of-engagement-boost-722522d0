@@ -24,7 +24,7 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "OrçaElétrico Pro — Orçamentos para Eletricistas em Segundos" },
-      { name: "description", content: "Calcule fio, disjuntor, tomadas e seu lucro em segundos. Gere orçamentos em PDF profissionais direto do celular." },
+      { name: "description", content: "Calcule fio, disjuntor, tomadas e seu lucro em segundos. Gere orçamentos em PDF profissionais direto do telemóvel." },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -752,7 +752,7 @@ const PAGE_BODY_RAW = `
       </p>
       <a href="#pricing" class="btn-primary">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
-        QUERO MEU ACESSO POR R$ 10
+        QUERO MEU ACESSO POR €10
       </a>
 
       <!-- VSL -->
@@ -840,7 +840,7 @@ const PAGE_BODY_RAW = `
           <div class="step-shot"><img src="__STEP2__" alt="Tela de resultado do orçamento" loading="lazy" /></div>
         </div>
         <div class="step-title">Veja seu Lucro Real</div>
-        <p class="step-desc">Lista de materiais completa, total a cobrar e lucro líquido. Tudo no seu celular.</p>
+        <p class="step-desc">Lista de materiais completa, total a cobrar e lucro líquido. Tudo no seu telemóvel.</p>
       </div>
       <div class="step-card">
         <div class="step-num">Passo 3</div>
@@ -886,7 +886,7 @@ const PAGE_BODY_RAW = `
       </div>
       <div class="recebe-item">
         <div class="recebe-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg></div>
-        <p class="recebe-text">Funciona offline no celular, tablet ou computador — direto na obra</p>
+        <p class="recebe-text">Funciona offline no telemóvel, tablet ou computador — direto na obra</p>
       </div>
       <div class="recebe-item">
         <div class="recebe-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg></div>
@@ -911,7 +911,7 @@ const PAGE_BODY_RAW = `
       <div class="bonus-card">
         <div class="bonus-img-wrap"><img src="__BONUS1__" alt="Modelo de Contrato de Prestação de Serviço Elétrico" loading="lazy" /></div>
         <p class="bonus-name">Modelo de Contrato de Prestação de Serviço Elétrico</p>
-        <p class="bonus-price">R$ 37,00</p>
+        <p class="bonus-price">€37,00</p>
         <p class="bonus-free">Hoje grátis</p>
       </div>
 
@@ -919,7 +919,7 @@ const PAGE_BODY_RAW = `
       <div class="bonus-card">
         <div class="bonus-img-wrap"><img src="__BONUS2__" alt="Tabela de Bitola de Fio por Potência e Distância" loading="lazy" /></div>
         <p class="bonus-name">Tabela de Bitola de Fio por Potência e Distância</p>
-        <p class="bonus-price">R$ 37,00</p>
+        <p class="bonus-price">€37,00</p>
         <p class="bonus-free">Hoje grátis</p>
       </div>
 
@@ -927,7 +927,7 @@ const PAGE_BODY_RAW = `
       <div class="bonus-card">
         <div class="bonus-img-wrap"><img src="__BONUS3__" alt="Checklist Completo de Vistoria Elétrica Residencial" loading="lazy" /></div>
         <p class="bonus-name">Checklist Completo de Vistoria Elétrica Residencial</p>
-        <p class="bonus-price">R$ 37,00</p>
+        <p class="bonus-price">€37,00</p>
         <p class="bonus-free">Hoje grátis</p>
       </div>
 
@@ -935,7 +935,7 @@ const PAGE_BODY_RAW = `
       <div class="bonus-card">
         <div class="bonus-img-wrap"><img src="__BONUS4__" alt="Mensagens Prontas para Fechar Serviço no WhatsApp" loading="lazy" /></div>
         <p class="bonus-name">Mensagens Prontas para Fechar Serviço no WhatsApp</p>
-        <p class="bonus-price">R$ 37,00</p>
+        <p class="bonus-price">€37,00</p>
         <p class="bonus-free">Hoje grátis</p>
       </div>
 
@@ -943,7 +943,7 @@ const PAGE_BODY_RAW = `
       <div class="bonus-card">
         <div class="bonus-img-wrap"><img src="__BONUS5__" alt="Tabela de Quanto Cobrar por Ponto Elétrico por Região" loading="lazy" /></div>
         <p class="bonus-name">Tabela de Quanto Cobrar por Ponto Elétrico por Região</p>
-        <p class="bonus-price">R$ 37,00</p>
+        <p class="bonus-price">€37,00</p>
         <p class="bonus-free">Hoje grátis</p>
       </div>
 
@@ -952,7 +952,7 @@ const PAGE_BODY_RAW = `
         <div class="bonus-total">
           <p class="bonus-total-label">Valor total dos bônus</p>
           <p class="bonus-total-val">GRÁTIS</p>
-          <p class="bonus-total-old">(R$ 185,00)</p>
+          <p class="bonus-total-old">(€185,00)</p>
         </div>
         <p class="bonus-name">Tudo incluído no Plano Premium</p>
         <p class="bonus-free">Acesso imediato</p>
@@ -999,7 +999,7 @@ const PAGE_BODY_RAW = `
           </div>
         </div>
         <div class="plan-price">
-          <div class="plan-price-val display">R$ 10,00</div>
+          <div class="plan-price-val display">€10,00</div>
           <p class="plan-price-period">Pagamento único</p>
         </div>
         <a href="https://pay.lowify.com.br/go.php?offer=jqv9t21" target="_blank" rel="noopener" class="btn-primary btn-dark" style="width:100%;padding:.9rem 1.5rem;font-size:1.1rem">Quero o plano básico</a>
@@ -1042,8 +1042,8 @@ const PAGE_BODY_RAW = `
           </div>
         </div>
         <div class="plan-price">
-          <p class="plan-price-old">De R$ 197,00 por apenas</p>
-          <div class="plan-price-val display plan-price-val-white">R$ 19,90</div>
+          <p class="plan-price-old">De €197,00 por apenas</p>
+          <div class="plan-price-val display plan-price-val-white">€19,90</div>
           <p class="plan-price-period plan-price-period-yellow">Pagamento único</p>
         </div>
         <a href="https://pay.lowify.com.br/checkout.php?product_id=7LUkS8" target="_blank" rel="noopener" class="btn-primary" style="width:100%;padding:.9rem 1.5rem;font-size:1.1rem">
@@ -1126,7 +1126,7 @@ const PAGE_BODY_RAW = `
           Já perdi obra boa porque demorei dois dias para responder. Já comprei material dobrado no balcão porque esqueci de calcular direito. Já fechei serviço por um preço que mal pagou o material — sem contar minha mão de obra.
         </p>
         <p class="fundador-text">
-          Foi aí que criei o <strong>OrçaElétrico Pro</strong> — uma ferramenta simples que qualquer eletricista consegue usar no celular, na obra, em 3 minutos. Hoje uso em todos os meus serviços e trabalho com previsibilidade, sem chute e sem prejuízo.
+          Foi aí que criei o <strong>OrçaElétrico Pro</strong> — uma ferramenta simples que qualquer eletricista consegue usar no telemóvel, na obra, em 3 minutos. Hoje uso em todos os meus serviços e trabalho com previsibilidade, sem chute e sem prejuízo.
         </p>
         <div class="fundador-quote">
           <p>"Se eu tivesse esse app quando comecei, teria evitado anos de orçamento errado e cliente sem resposta."</p>
@@ -1166,7 +1166,7 @@ const PAGE_BODY_RAW = `
           <span class="faq-q-text">Como acesso o app?</span>
           <div class="faq-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg></div>
         </button>
-        <div class="faq-a">Após a compra você recebe o acesso imediatamente por e-mail. O app funciona direto no navegador do celular, tablet ou computador — sem precisar baixar nada da loja de aplicativos. Funciona em Android, iPhone e qualquer sistema.</div>
+        <div class="faq-a">Após a compra você recebe o acesso imediatamente por e-mail. O app funciona direto no navegador do telemóvel, tablet ou computador — sem precisar baixar nada da loja de aplicativos. Funciona em Android, iPhone e qualquer sistema.</div>
       </div>
 
       <div class="faq-item">
@@ -1198,7 +1198,7 @@ const PAGE_BODY_RAW = `
           </div>
           <div class="footer-logo-text">ORÇA<span>ELÉTRICO</span> PRO</div>
         </div>
-        <p class="footer-tagline">A ferramenta nº 1 do eletricista profissional no Brasil.</p>
+        <p class="footer-tagline">A ferramenta nº 1 do eletricista profissional em Portugal.</p>
       </div>
       <div class="footer-security">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg>
