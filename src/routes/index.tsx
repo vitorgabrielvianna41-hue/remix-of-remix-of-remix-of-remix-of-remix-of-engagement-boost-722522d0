@@ -23,8 +23,8 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "OrçaElétrico Pro — Orçamentos para Eletricistas em Segundos" },
-      { name: "description", content: "Calcule fio, disjuntor, tomadas e seu lucro em segundos. Gere orçamentos em PDF profissionais direto do celular." },
+      { title: "OrçaElétrico Pro — Orçamentos para Eletricistas em 3 Minutos" },
+      { name: "description", content: "Calcula fio, disjuntor, tomadas e o teu lucro em segundos. Gera orçamentos em PDF profissionais direto do telemóvel." },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -732,10 +732,28 @@ footer {
 .band-title{font-size:clamp(1.8rem,4vw,3rem);line-height:1.05;color:var(--navy);text-transform:uppercase;letter-spacing:.02em;margin:1rem 0}
 .band-title em{color:var(--yellow-dark);font-style:normal}
 .band-desc{font-size:1.05rem;color:#5A6A82;font-weight:500;line-height:1.6;max-width:480px}
+
+/* Offer bar */
+.offer-bar{background:#C74424;color:#fff;text-align:center;padding:.75rem 1rem;font-size:.82rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;display:flex;align-items:center;justify-content:center;gap:10px;position:relative;z-index:5}
+.offer-bar-icon{font-size:1rem}
+/* Hero users line */
+.hero-users{color:var(--yellow);font-weight:900;font-size:.85rem;letter-spacing:.2em;text-transform:uppercase;margin:-0.5rem 0 1rem}
+/* How receive box */
+.how-receive{max-width:640px;margin:2.25rem auto 0;background:rgba(255,255,255,.02);border:1.5px solid rgba(255,214,10,.35);border-radius:22px;padding:1.5rem 1.75rem 1.25rem;text-align:left}
+.how-receive-title{text-align:center;color:var(--yellow);font-weight:900;letter-spacing:.18em;font-size:.95rem;margin-bottom:1.1rem;text-transform:uppercase}
+.how-receive-list{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:.7rem}
+.how-receive-list li{color:rgba(255,255,255,.88);font-weight:600;font-size:.92rem;display:flex;gap:.6rem;align-items:flex-start;line-height:1.4}
+.hr-emoji{flex-shrink:0}
+.how-receive-foot{text-align:center;color:rgba(120,170,255,.85);font-weight:600;font-size:.8rem;margin-top:1rem}
 `;
 const PAGE_BODY_RAW = `
 
-<!-- ══════════════ HERO ══════════════ -->
+<!-- OFERTA BANNER -->
+<div class="offer-bar">
+  <span class="offer-bar-icon">⏰</span>
+  Oferta válida somente hoje: 2 de Julho de 2026
+</div>
+
 <header>
   <div class="container">
     <div class="hero-inner">
@@ -747,19 +765,33 @@ const PAGE_BODY_RAW = `
         Orçamento de Eletricista<br>
         em <em>PDF</em> em <em>3 Minutos</em>
       </h1>
+      <p class="hero-users">+1.000 Eletricistas já usam</p>
       <p class="hero-sub">
-        Calcule fio, disjuntor, tomadas e seu lucro automaticamente. Mande PDF profissional pelo WhatsApp e feche mais serviços — sem chute, sem mensalidade.
+        Gera PDF profissional e personalizado com o OrçaElétrico Pro em minutos e fecha mais serviços — sem palpite, sem mensalidade.
       </p>
-      <a href="#pricing" class="btn-primary">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
-        QUERO MEU ACESSO POR R$ 10
-      </a>
 
       <!-- VSL -->
       <div class="hero-real-img-wrap" style="background:transparent;box-shadow:none;padding:0;max-width:420px;margin:2rem auto">
         <style>wistia-player[media-id='pbo4ofgvsl']:not(:defined){background:center / contain no-repeat url('https://fast.wistia.com/embed/medias/pbo4ofgvsl/swatch');display:block;filter:blur(5px);padding-top:177.78%;}</style>
         <wistia-player media-id="pbo4ofgvsl" aspect="0.5625"></wistia-player>
       </div>
+
+      <a href="#pricing" class="btn-primary">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+        QUERO O MEU ACESSO POR €10
+      </a>
+
+      <!-- COMO RECEBES O APP -->
+      <div class="how-receive">
+        <p class="how-receive-title">Como recebes o app?</p>
+        <ul class="how-receive-list">
+          <li><span class="hr-emoji">📩</span> Compraste? Recebes o app no teu email em menos de 2 minutos</li>
+          <li><span class="hr-emoji">📱</span> Clicas e abres o app direto no telemóvel — sem descarregar nada</li>
+          <li><span class="hr-emoji">✅</span> É só usar — funciona pelo navegador, igual a um site, sem precisares da Play Store</li>
+        </ul>
+        <p class="how-receive-foot">Funciona em qualquer telemóvel Android ou iPhone, com ou sem internet.</p>
+      </div>
+
       <div class="hero-checks">
         <span>
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
@@ -799,7 +831,7 @@ const PAGE_BODY_RAW = `
       </div>
       <div class="dor-card">
         <div class="dor-icon">💸</div>
-        <p class="dor-text">Orça instalação no chute, chega na obra e descobre que faltou disjuntor — compra no balcão pagando 2x o preço</p>
+        <p class="dor-text">Orça instalação no palpite, chega na obra e descobre que faltou disjuntor — compra no balcão pagando 2x o preço</p>
       </div>
       <div class="dor-card">
         <div class="dor-icon">📱</div>
@@ -840,7 +872,7 @@ const PAGE_BODY_RAW = `
           <div class="step-shot"><img src="__STEP2__" alt="Tela de resultado do orçamento" loading="lazy" /></div>
         </div>
         <div class="step-title">Veja seu Lucro Real</div>
-        <p class="step-desc">Lista de materiais completa, total a cobrar e lucro líquido. Tudo no seu celular.</p>
+        <p class="step-desc">Lista de materiais completa, total a cobrar e lucro líquido. Tudo no seu telemóvel.</p>
       </div>
       <div class="step-card">
         <div class="step-num">Passo 3</div>
@@ -886,7 +918,7 @@ const PAGE_BODY_RAW = `
       </div>
       <div class="recebe-item">
         <div class="recebe-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg></div>
-        <p class="recebe-text">Funciona offline no celular, tablet ou computador — direto na obra</p>
+        <p class="recebe-text">Funciona offline no telemóvel, tablet ou computador — direto na obra</p>
       </div>
       <div class="recebe-item">
         <div class="recebe-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg></div>
@@ -911,7 +943,7 @@ const PAGE_BODY_RAW = `
       <div class="bonus-card">
         <div class="bonus-img-wrap"><img src="__BONUS1__" alt="Modelo de Contrato de Prestação de Serviço Elétrico" loading="lazy" /></div>
         <p class="bonus-name">Modelo de Contrato de Prestação de Serviço Elétrico</p>
-        <p class="bonus-price">R$ 37,00</p>
+        <p class="bonus-price">€37,00</p>
         <p class="bonus-free">Hoje grátis</p>
       </div>
 
@@ -919,7 +951,7 @@ const PAGE_BODY_RAW = `
       <div class="bonus-card">
         <div class="bonus-img-wrap"><img src="__BONUS2__" alt="Tabela de Bitola de Fio por Potência e Distância" loading="lazy" /></div>
         <p class="bonus-name">Tabela de Bitola de Fio por Potência e Distância</p>
-        <p class="bonus-price">R$ 37,00</p>
+        <p class="bonus-price">€37,00</p>
         <p class="bonus-free">Hoje grátis</p>
       </div>
 
@@ -927,7 +959,7 @@ const PAGE_BODY_RAW = `
       <div class="bonus-card">
         <div class="bonus-img-wrap"><img src="__BONUS3__" alt="Checklist Completo de Vistoria Elétrica Residencial" loading="lazy" /></div>
         <p class="bonus-name">Checklist Completo de Vistoria Elétrica Residencial</p>
-        <p class="bonus-price">R$ 37,00</p>
+        <p class="bonus-price">€37,00</p>
         <p class="bonus-free">Hoje grátis</p>
       </div>
 
@@ -935,7 +967,7 @@ const PAGE_BODY_RAW = `
       <div class="bonus-card">
         <div class="bonus-img-wrap"><img src="__BONUS4__" alt="Mensagens Prontas para Fechar Serviço no WhatsApp" loading="lazy" /></div>
         <p class="bonus-name">Mensagens Prontas para Fechar Serviço no WhatsApp</p>
-        <p class="bonus-price">R$ 37,00</p>
+        <p class="bonus-price">€37,00</p>
         <p class="bonus-free">Hoje grátis</p>
       </div>
 
@@ -943,7 +975,7 @@ const PAGE_BODY_RAW = `
       <div class="bonus-card">
         <div class="bonus-img-wrap"><img src="__BONUS5__" alt="Tabela de Quanto Cobrar por Ponto Elétrico por Região" loading="lazy" /></div>
         <p class="bonus-name">Tabela de Quanto Cobrar por Ponto Elétrico por Região</p>
-        <p class="bonus-price">R$ 37,00</p>
+        <p class="bonus-price">€37,00</p>
         <p class="bonus-free">Hoje grátis</p>
       </div>
 
@@ -952,7 +984,7 @@ const PAGE_BODY_RAW = `
         <div class="bonus-total">
           <p class="bonus-total-label">Valor total dos bônus</p>
           <p class="bonus-total-val">GRÁTIS</p>
-          <p class="bonus-total-old">(R$ 185,00)</p>
+          <p class="bonus-total-old">(€185,00)</p>
         </div>
         <p class="bonus-name">Tudo incluído no Plano Premium</p>
         <p class="bonus-free">Acesso imediato</p>
@@ -999,7 +1031,7 @@ const PAGE_BODY_RAW = `
           </div>
         </div>
         <div class="plan-price">
-          <div class="plan-price-val display">R$ 10,00</div>
+          <div class="plan-price-val display">€10,00</div>
           <p class="plan-price-period">Pagamento único</p>
         </div>
         <a href="https://pay.lowify.com.br/go.php?offer=jqv9t21" target="_blank" rel="noopener" class="btn-primary btn-dark" style="width:100%;padding:.9rem 1.5rem;font-size:1.1rem">Quero o plano básico</a>
@@ -1042,8 +1074,8 @@ const PAGE_BODY_RAW = `
           </div>
         </div>
         <div class="plan-price">
-          <p class="plan-price-old">De R$ 197,00 por apenas</p>
-          <div class="plan-price-val display plan-price-val-white">R$ 19,90</div>
+          <p class="plan-price-old">De €197,00 por apenas</p>
+          <div class="plan-price-val display plan-price-val-white">€19,90</div>
           <p class="plan-price-period plan-price-period-yellow">Pagamento único</p>
         </div>
         <a href="https://pay.lowify.com.br/checkout.php?product_id=7LUkS8" target="_blank" rel="noopener" class="btn-primary" style="width:100%;padding:.9rem 1.5rem;font-size:1.1rem">
@@ -1063,7 +1095,7 @@ const PAGE_BODY_RAW = `
     </div>
     <h2 class="section-title display" style="text-align:center">O que os eletricistas<br><em>estão dizendo</em></h2>
     <p style="text-align:center;color:var(--yellow-dark);font-weight:700;font-size:.9rem;text-transform:uppercase;letter-spacing:.1em;margin-top:.5rem">
-      Resultados de quem parou de orçar no chute
+      Resultados de quem parou de orçar no palpite
     </p>
     <div class="test-strip-wrap">
       <div class="test-strip">
@@ -1126,7 +1158,7 @@ const PAGE_BODY_RAW = `
           Já perdi obra boa porque demorei dois dias para responder. Já comprei material dobrado no balcão porque esqueci de calcular direito. Já fechei serviço por um preço que mal pagou o material — sem contar minha mão de obra.
         </p>
         <p class="fundador-text">
-          Foi aí que criei o <strong>OrçaElétrico Pro</strong> — uma ferramenta simples que qualquer eletricista consegue usar no celular, na obra, em 3 minutos. Hoje uso em todos os meus serviços e trabalho com previsibilidade, sem chute e sem prejuízo.
+          Foi aí que criei o <strong>OrçaElétrico Pro</strong> — uma ferramenta simples que qualquer eletricista consegue usar no telemóvel, na obra, em 3 minutos. Hoje uso em todos os meus serviços e trabalho com previsibilidade, sem palpite e sem prejuízo.
         </p>
         <div class="fundador-quote">
           <p>"Se eu tivesse esse app quando comecei, teria evitado anos de orçamento errado e cliente sem resposta."</p>
@@ -1166,7 +1198,7 @@ const PAGE_BODY_RAW = `
           <span class="faq-q-text">Como acesso o app?</span>
           <div class="faq-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg></div>
         </button>
-        <div class="faq-a">Após a compra você recebe o acesso imediatamente por e-mail. O app funciona direto no navegador do celular, tablet ou computador — sem precisar baixar nada da loja de aplicativos. Funciona em Android, iPhone e qualquer sistema.</div>
+        <div class="faq-a">Após a compra você recebe o acesso imediatamente por e-mail. O app funciona direto no navegador do telemóvel, tablet ou computador — sem precisares de descarregar nada da loja de apps. Funciona em Android, iPhone e qualquer sistema.</div>
       </div>
 
       <div class="faq-item">
@@ -1198,7 +1230,7 @@ const PAGE_BODY_RAW = `
           </div>
           <div class="footer-logo-text">ORÇA<span>ELÉTRICO</span> PRO</div>
         </div>
-        <p class="footer-tagline">A ferramenta nº 1 do eletricista profissional no Brasil.</p>
+        <p class="footer-tagline">A ferramenta nº 1 do eletricista profissional em Portugal.</p>
       </div>
       <div class="footer-security">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg>
