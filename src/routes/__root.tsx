@@ -93,13 +93,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     ],
     scripts: [
       {
-        children: `window.pixelId = "6a187668e9b05c9efd0d23d7";var a = document.createElement("script");a.setAttribute("async", "");a.setAttribute("defer", "");a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");document.head.appendChild(a);`,
+        children: `window.pixelId = "6a467ad4795325327dcf7a7a";var a = document.createElement("script");a.setAttribute("async", "");a.setAttribute("defer", "");a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");document.head.appendChild(a);`,
       },
       {
         src: "https://cdn.utmify.com.br/scripts/utms/latest.js",
         async: true,
         defer: true,
-        "data-utmify-prevent-xcod-sck": "",
         "data-utmify-prevent-subids": "",
       },
     ],
