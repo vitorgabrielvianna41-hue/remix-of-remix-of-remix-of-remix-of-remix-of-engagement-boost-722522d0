@@ -756,23 +756,50 @@ const PAGE_BODY_RAW = `
         <svg class="bolt-inline" viewBox="0 0 24 24" fill="currentColor"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
         Feito para Eletricistas
       </div>
+<!-- OFERTA BANNER -->
+<div class="offer-bar">
+  <span class="offer-bar-icon">⏰</span>
+  Oferta válida somente hoje: 2 de Julho de 2026
+</div>
+
+<header>
+  <div class="container">
+    <div class="hero-inner">
+      <div class="hero-badge">
+        <svg class="bolt-inline" viewBox="0 0 24 24" fill="currentColor"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+        Feito para Eletricistas
+      </div>
       <h1 class="hero-h1">
         Orçamento de Eletricista<br>
         em <em>PDF</em> em <em>3 Minutos</em>
       </h1>
+      <p class="hero-users">+1.000 Eletricistas já usam</p>
       <p class="hero-sub">
-        Calcule fio, disjuntor, tomadas e seu lucro automaticamente. Mande PDF profissional pelo WhatsApp e feche mais serviços — sem palpite, sem mensalidade.
+        Gera PDF profissional e personalizado com o OrçaElétrico Pro em minutos e fecha mais serviços — sem palpite, sem mensalidade.
       </p>
-      <a href="#pricing" class="btn-primary">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
-        QUERO MEU ACESSO POR €10
-      </a>
 
       <!-- VSL -->
       <div class="hero-real-img-wrap" style="background:transparent;box-shadow:none;padding:0;max-width:420px;margin:2rem auto">
         <style>wistia-player[media-id='pbo4ofgvsl']:not(:defined){background:center / contain no-repeat url('https://fast.wistia.com/embed/medias/pbo4ofgvsl/swatch');display:block;filter:blur(5px);padding-top:177.78%;}</style>
         <wistia-player media-id="pbo4ofgvsl" aspect="0.5625"></wistia-player>
       </div>
+
+      <a href="#pricing" class="btn-primary">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+        QUERO O MEU ACESSO POR €10
+      </a>
+
+      <!-- COMO RECEBES O APP -->
+      <div class="how-receive">
+        <p class="how-receive-title">Como recebes o app?</p>
+        <ul class="how-receive-list">
+          <li><span class="hr-emoji">📩</span> Compraste? Recebes o app no teu email em menos de 2 minutos</li>
+          <li><span class="hr-emoji">📱</span> Clicas e abres o app direto no telemóvel — sem descarregar nada</li>
+          <li><span class="hr-emoji">✅</span> É só usar — funciona pelo navegador, igual a um site, sem precisares da Play Store</li>
+        </ul>
+        <p class="how-receive-foot">Funciona em qualquer telemóvel Android ou iPhone, com ou sem internet.</p>
+      </div>
+
       <div class="hero-checks">
         <span>
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
