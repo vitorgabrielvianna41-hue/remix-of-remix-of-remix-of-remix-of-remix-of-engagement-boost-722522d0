@@ -748,7 +748,7 @@ const PAGE_BODY_RAW = `
         em <em>PDF</em> em <em>3 Minutos</em>
       </h1>
       <p class="hero-sub">
-        Calcule fio, disjuntor, tomadas e seu lucro automaticamente. Mande PDF profissional pelo WhatsApp e feche mais serviços — sem chute, sem mensalidade.
+        Calcule fio, disjuntor, tomadas e seu lucro automaticamente. Mande PDF profissional pelo WhatsApp e feche mais serviços — sem palpite, sem mensalidade.
       </p>
       <a href="#pricing" class="btn-primary">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
@@ -799,7 +799,7 @@ const PAGE_BODY_RAW = `
       </div>
       <div class="dor-card">
         <div class="dor-icon">💸</div>
-        <p class="dor-text">Orça instalação no chute, chega na obra e descobre que faltou disjuntor — compra no balcão pagando 2x o preço</p>
+        <p class="dor-text">Orça instalação no palpite, chega na obra e descobre que faltou disjuntor — compra no balcão pagando 2x o preço</p>
       </div>
       <div class="dor-card">
         <div class="dor-icon">📱</div>
@@ -1063,7 +1063,7 @@ const PAGE_BODY_RAW = `
     </div>
     <h2 class="section-title display" style="text-align:center">O que os eletricistas<br><em>estão dizendo</em></h2>
     <p style="text-align:center;color:var(--yellow-dark);font-weight:700;font-size:.9rem;text-transform:uppercase;letter-spacing:.1em;margin-top:.5rem">
-      Resultados de quem parou de orçar no chute
+      Resultados de quem parou de orçar no palpite
     </p>
     <div class="test-strip-wrap">
       <div class="test-strip">
@@ -1126,7 +1126,7 @@ const PAGE_BODY_RAW = `
           Já perdi obra boa porque demorei dois dias para responder. Já comprei material dobrado no balcão porque esqueci de calcular direito. Já fechei serviço por um preço que mal pagou o material — sem contar minha mão de obra.
         </p>
         <p class="fundador-text">
-          Foi aí que criei o <strong>OrçaElétrico Pro</strong> — uma ferramenta simples que qualquer eletricista consegue usar no telemóvel, na obra, em 3 minutos. Hoje uso em todos os meus serviços e trabalho com previsibilidade, sem chute e sem prejuízo.
+          Foi aí que criei o <strong>OrçaElétrico Pro</strong> — uma ferramenta simples que qualquer eletricista consegue usar no telemóvel, na obra, em 3 minutos. Hoje uso em todos os meus serviços e trabalho com previsibilidade, sem palpite e sem prejuízo.
         </p>
         <div class="fundador-quote">
           <p>"Se eu tivesse esse app quando comecei, teria evitado anos de orçamento errado e cliente sem resposta."</p>
@@ -1166,7 +1166,7 @@ const PAGE_BODY_RAW = `
           <span class="faq-q-text">Como acesso o app?</span>
           <div class="faq-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg></div>
         </button>
-        <div class="faq-a">Após a compra você recebe o acesso imediatamente por e-mail. O app funciona direto no navegador do telemóvel, tablet ou computador — sem precisar baixar nada da loja de aplicativos. Funciona em Android, iPhone e qualquer sistema.</div>
+        <div class="faq-a">Após a compra você recebe o acesso imediatamente por e-mail. O app funciona direto no navegador do telemóvel, tablet ou computador — sem precisares de descarregar nada da loja de apps. Funciona em Android, iPhone e qualquer sistema.</div>
       </div>
 
       <div class="faq-item">
