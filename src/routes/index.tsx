@@ -732,6 +732,19 @@ footer {
 .band-title{font-size:clamp(1.8rem,4vw,3rem);line-height:1.05;color:var(--navy);text-transform:uppercase;letter-spacing:.02em;margin:1rem 0}
 .band-title em{color:var(--yellow-dark);font-style:normal}
 .band-desc{font-size:1.05rem;color:#5A6A82;font-weight:500;line-height:1.6;max-width:480px}
+
+/* Offer bar */
+.offer-bar{background:#C74424;color:#fff;text-align:center;padding:.75rem 1rem;font-size:.82rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;display:flex;align-items:center;justify-content:center;gap:10px;position:relative;z-index:5}
+.offer-bar-icon{font-size:1rem}
+/* Hero users line */
+.hero-users{color:var(--yellow);font-weight:900;font-size:.85rem;letter-spacing:.2em;text-transform:uppercase;margin:-0.5rem 0 1rem}
+/* How receive box */
+.how-receive{max-width:640px;margin:2.25rem auto 0;background:rgba(255,255,255,.02);border:1.5px solid rgba(255,214,10,.35);border-radius:22px;padding:1.5rem 1.75rem 1.25rem;text-align:left}
+.how-receive-title{text-align:center;color:var(--yellow);font-weight:900;letter-spacing:.18em;font-size:.95rem;margin-bottom:1.1rem;text-transform:uppercase}
+.how-receive-list{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:.7rem}
+.how-receive-list li{color:rgba(255,255,255,.88);font-weight:600;font-size:.92rem;display:flex;gap:.6rem;align-items:flex-start;line-height:1.4}
+.hr-emoji{flex-shrink:0}
+.how-receive-foot{text-align:center;color:rgba(120,170,255,.85);font-weight:600;font-size:.8rem;margin-top:1rem}
 `;
 const PAGE_BODY_RAW = `
 
