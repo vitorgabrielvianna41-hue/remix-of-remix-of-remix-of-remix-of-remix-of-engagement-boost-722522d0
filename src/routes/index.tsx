@@ -23,8 +23,8 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "OrçaElétrico Pro — Orçamentos para Eletricistas em Segundos" },
-      { name: "description", content: "Calcule fio, disjuntor, tomadas e seu lucro em segundos. Gere orçamentos em PDF profissionais direto do telemóvel." },
+      { title: "OrçaElétrico Pro — Orçamentos para Eletricistas em3 Minutos" },
+      { name: "description", content: "Calcula fio, disjuntor, tomadas e o teu lucro em segundos. Gera orçamentos em PDF profissionais direto do telemóvel." },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
