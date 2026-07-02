@@ -23,7 +23,7 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "OrçaElétrico Pro — Orçamentos para Eletricistas em3 Minutos" },
+      { title: "OrçaElétrico Pro — Orçamentos para Eletricistas em 3 Minutos" },
       { name: "description", content: "Calcula fio, disjuntor, tomadas e o teu lucro em segundos. Gera orçamentos em PDF profissionais direto do telemóvel." },
     ],
     links: [
