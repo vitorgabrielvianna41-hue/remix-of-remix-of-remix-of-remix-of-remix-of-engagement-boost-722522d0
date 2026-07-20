@@ -778,7 +778,7 @@ const PAGE_BODY_RAW = `
 
       <a href="#pricing" class="btn-primary">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
-        QUERO O MEU ACESSO POR €10
+        QUERO O MEU ACESSO POR R$ 10
       </a>
 
       <!-- COMO RECEBES O APP -->
@@ -943,7 +943,7 @@ const PAGE_BODY_RAW = `
       <div class="bonus-card">
         <div class="bonus-img-wrap"><img src="__BONUS1__" alt="Modelo de Contrato de Prestação de Serviço Elétrico" loading="lazy" /></div>
         <p class="bonus-name">Modelo de Contrato de Prestação de Serviço Elétrico</p>
-        <p class="bonus-price">€37,00</p>
+        <p class="bonus-price">R$ 37,00</p>
         <p class="bonus-free">Hoje grátis</p>
       </div>
 
@@ -951,7 +951,7 @@ const PAGE_BODY_RAW = `
       <div class="bonus-card">
         <div class="bonus-img-wrap"><img src="__BONUS2__" alt="Tabela de Bitola de Fio por Potência e Distância" loading="lazy" /></div>
         <p class="bonus-name">Tabela de Bitola de Fio por Potência e Distância</p>
-        <p class="bonus-price">€37,00</p>
+        <p class="bonus-price">R$ 37,00</p>
         <p class="bonus-free">Hoje grátis</p>
       </div>
 
@@ -959,7 +959,7 @@ const PAGE_BODY_RAW = `
       <div class="bonus-card">
         <div class="bonus-img-wrap"><img src="__BONUS3__" alt="Checklist Completo de Vistoria Elétrica Residencial" loading="lazy" /></div>
         <p class="bonus-name">Checklist Completo de Vistoria Elétrica Residencial</p>
-        <p class="bonus-price">€37,00</p>
+        <p class="bonus-price">R$ 37,00</p>
         <p class="bonus-free">Hoje grátis</p>
       </div>
 
@@ -967,7 +967,7 @@ const PAGE_BODY_RAW = `
       <div class="bonus-card">
         <div class="bonus-img-wrap"><img src="__BONUS4__" alt="Mensagens Prontas para Fechar Serviço no WhatsApp" loading="lazy" /></div>
         <p class="bonus-name">Mensagens Prontas para Fechar Serviço no WhatsApp</p>
-        <p class="bonus-price">€37,00</p>
+        <p class="bonus-price">R$ 37,00</p>
         <p class="bonus-free">Hoje grátis</p>
       </div>
 
@@ -975,7 +975,7 @@ const PAGE_BODY_RAW = `
       <div class="bonus-card">
         <div class="bonus-img-wrap"><img src="__BONUS5__" alt="Tabela de Quanto Cobrar por Ponto Elétrico por Região" loading="lazy" /></div>
         <p class="bonus-name">Tabela de Quanto Cobrar por Ponto Elétrico por Região</p>
-        <p class="bonus-price">€37,00</p>
+        <p class="bonus-price">R$ 37,00</p>
         <p class="bonus-free">Hoje grátis</p>
       </div>
 
@@ -984,7 +984,7 @@ const PAGE_BODY_RAW = `
         <div class="bonus-total">
           <p class="bonus-total-label">Valor total dos bônus</p>
           <p class="bonus-total-val">GRÁTIS</p>
-          <p class="bonus-total-old">(€185,00)</p>
+          <p class="bonus-total-old">(R$ 185,00)</p>
         </div>
         <p class="bonus-name">Tudo incluído no Plano Premium</p>
         <p class="bonus-free">Acesso imediato</p>
@@ -1035,7 +1035,7 @@ const PAGE_BODY_RAW = `
           </div>
         </div>
         <div class="plan-price">
-          <div class="plan-price-val display">€10,00</div>
+          <div class="plan-price-val display">R$ 10,00</div>
           <p class="plan-price-period">Pagamento único</p>
         </div>
         <a href="https://pay.hotmart.com/R106576583R?off=5u14ctho" target="_blank" rel="noopener" class="btn-primary btn-dark" style="width:100%;padding:.9rem 1.5rem;font-size:1.1rem">Quero o plano básico</a>
@@ -1078,8 +1078,8 @@ const PAGE_BODY_RAW = `
           </div>
         </div>
         <div class="plan-price">
-          <p class="plan-price-old">De €197,00 por apenas</p>
-          <div class="plan-price-val display plan-price-val-white">€19,90</div>
+          <p class="plan-price-old">De R$ 197,00 por apenas</p>
+          <div class="plan-price-val display plan-price-val-white">R$ 24,90</div>
           <p class="plan-price-period plan-price-period-yellow">Pagamento único</p>
         </div>
         <a href="https://pay.hotmart.com/R106576583R?off=h0rdltvi" target="_blank" rel="noopener" class="btn-primary" style="width:100%;padding:.9rem 1.5rem;font-size:1.1rem">
