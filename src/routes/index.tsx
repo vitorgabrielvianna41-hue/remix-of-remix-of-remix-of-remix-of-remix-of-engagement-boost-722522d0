@@ -772,13 +772,13 @@ const PAGE_BODY_RAW = `
 
       <!-- VSL -->
       <div class="hero-real-img-wrap" style="background:transparent;box-shadow:none;padding:0;max-width:420px;margin:2rem auto">
-        <style>wistia-player[media-id='pbo4ofgvsl']:not(:defined){background:center / contain no-repeat url('https://fast.wistia.com/embed/medias/pbo4ofgvsl/swatch');display:block;filter:blur(5px);padding-top:177.78%;}</style>
-        <wistia-player media-id="pbo4ofgvsl" aspect="0.5625"></wistia-player>
+        <style>wistia-player[media-id='4c8lgbn4f0']:not(:defined){background:center / contain no-repeat url('https://fast.wistia.com/embed/medias/4c8lgbn4f0/swatch');display:block;filter:blur(5px);padding-top:177.78%;}</style>
+        <wistia-player media-id="4c8lgbn4f0" aspect="0.5625"></wistia-player>
       </div>
 
       <a href="#pricing" class="btn-primary">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
-        QUERO O MEU ACESSO POR R$ 10
+        QUERO O MEU ACESSO
       </a>
 
       <!-- COMO RECEBES O APP -->
