@@ -93,13 +93,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     ],
     scripts: [
       {
-        children: `window.pixelId = "6a467ad4795325327dcf7a7a";var a = document.createElement("script");a.setAttribute("async", "");a.setAttribute("defer", "");a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");document.head.appendChild(a);`,
-      },
-      {
-        src: "https://cdn.utmify.com.br/scripts/utms/latest.js",
-        async: true,
-        defer: true,
-        "data-utmify-prevent-subids": "",
+        children: `window.pixelId = "lt_px_c70df3fcaea2";var a = document.createElement("script");a.setAttribute("async", "");a.setAttribute("defer", "");a.setAttribute("src", "https://lowtrack.com.br/pixel.js");document.head.appendChild(a);`,
       },
     ],
   }),

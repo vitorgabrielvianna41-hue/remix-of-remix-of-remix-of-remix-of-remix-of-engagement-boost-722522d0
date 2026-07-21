@@ -751,7 +751,7 @@ const PAGE_BODY_RAW = `
 <!-- OFERTA BANNER -->
 <div class="offer-bar">
   <span class="offer-bar-icon">⏰</span>
-  Oferta válida somente hoje: 2 de Julho de 2026
+  Oferta válida somente hoje: 21 de Julho de 2026
 </div>
 
 <header>
@@ -772,13 +772,13 @@ const PAGE_BODY_RAW = `
 
       <!-- VSL -->
       <div class="hero-real-img-wrap" style="background:transparent;box-shadow:none;padding:0;max-width:420px;margin:2rem auto">
-        <style>wistia-player[media-id='pbo4ofgvsl']:not(:defined){background:center / contain no-repeat url('https://fast.wistia.com/embed/medias/pbo4ofgvsl/swatch');display:block;filter:blur(5px);padding-top:177.78%;}</style>
-        <wistia-player media-id="pbo4ofgvsl" aspect="0.5625"></wistia-player>
+        <style>wistia-player[media-id='4c8lgbn4f0']:not(:defined){background:center / contain no-repeat url('https://fast.wistia.com/embed/medias/4c8lgbn4f0/swatch');display:block;filter:blur(5px);padding-top:177.78%;}</style>
+        <wistia-player media-id="4c8lgbn4f0" aspect="0.5625"></wistia-player>
       </div>
 
       <a href="#pricing" class="btn-primary">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
-        QUERO O MEU ACESSO POR R$ 10
+        QUERO O MEU ACESSO
       </a>
 
       <!-- COMO RECEBES O APP -->
@@ -1038,7 +1038,7 @@ const PAGE_BODY_RAW = `
           <div class="plan-price-val display">R$ 10,00</div>
           <p class="plan-price-period">Pagamento único</p>
         </div>
-        <a href="https://pay.hotmart.com/R106576583R?off=5u14ctho" target="_blank" rel="noopener" class="btn-primary btn-dark" style="width:100%;padding:.9rem 1.5rem;font-size:1.1rem">Quero o plano básico</a>
+        <a href="https://pay.wiapy.com/-C1EeINeH6" target="_blank" rel="noopener" class="btn-primary btn-dark" style="width:100%;padding:.9rem 1.5rem;font-size:1.1rem">Quero o plano básico</a>
       </div>
 
       <!-- Completo -->
@@ -1082,7 +1082,7 @@ const PAGE_BODY_RAW = `
           <div class="plan-price-val display plan-price-val-white">R$ 24,90</div>
           <p class="plan-price-period plan-price-period-yellow">Pagamento único</p>
         </div>
-        <a href="https://pay.hotmart.com/R106576583R?off=h0rdltvi" target="_blank" rel="noopener" class="btn-primary" style="width:100%;padding:.9rem 1.5rem;font-size:1.1rem">
+        <a href="https://pay.wiapy.com/0Ix-n4JEN" target="_blank" rel="noopener" class="btn-primary" style="width:100%;padding:.9rem 1.5rem;font-size:1.1rem">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
           Quero o plano premium
         </a>
@@ -1277,17 +1277,17 @@ function Index() {
     s1.async = true;
     document.head.appendChild(s1);
     const s2 = document.createElement("script");
-    s2.src = "https://fast.wistia.com/embed/pbo4ofgvsl.js";
+    s2.src = "https://fast.wistia.com/embed/4c8lgbn4f0.js";
     s2.async = true;
     s2.type = "module";
     document.head.appendChild(s2);
 
-    // Load Utmify pixel
-    (window as any).pixelId = "6a187668e9b05c9efd0d23d7";
+    // Load Lowtrack pixel
+    (window as any).pixelId = "lt_px_c70df3fcaea2";
     const a = document.createElement("script");
     a.setAttribute("async", "");
     a.setAttribute("defer", "");
-    a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+    a.setAttribute("src", "https://lowtrack.com.br/pixel.js");
     document.head.appendChild(a);
   }, []);
 
