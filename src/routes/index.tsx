@@ -1038,7 +1038,7 @@ const PAGE_BODY_RAW = `
           <div class="plan-price-val display">R$ 10,00</div>
           <p class="plan-price-period">Pagamento único</p>
         </div>
-        <a href="https://pay.hotmart.com/R106576583R?off=5u14ctho" target="_blank" rel="noopener" class="btn-primary btn-dark" style="width:100%;padding:.9rem 1.5rem;font-size:1.1rem">Quero o plano básico</a>
+        <a href="https://pay.wiapy.com/-C1EeINeH6" target="_blank" rel="noopener" class="btn-primary btn-dark" style="width:100%;padding:.9rem 1.5rem;font-size:1.1rem">Quero o plano básico</a>
       </div>
 
       <!-- Completo -->
