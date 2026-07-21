@@ -751,7 +751,7 @@ const PAGE_BODY_RAW = `
 <!-- OFERTA BANNER -->
 <div class="offer-bar">
   <span class="offer-bar-icon">⏰</span>
-  Oferta válida somente hoje: 2 de Julho de 2026
+  Oferta válida somente hoje: 21 de Julho de 2026
 </div>
 
 <header>
