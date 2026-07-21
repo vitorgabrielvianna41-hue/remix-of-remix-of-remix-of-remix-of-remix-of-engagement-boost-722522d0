@@ -1277,17 +1277,17 @@ function Index() {
     s1.async = true;
     document.head.appendChild(s1);
     const s2 = document.createElement("script");
-    s2.src = "https://fast.wistia.com/embed/pbo4ofgvsl.js";
+    s2.src = "https://fast.wistia.com/embed/4c8lgbn4f0.js";
     s2.async = true;
     s2.type = "module";
     document.head.appendChild(s2);
 
-    // Load Utmify pixel
-    (window as any).pixelId = "6a187668e9b05c9efd0d23d7";
+    // Load Lowtrack pixel
+    (window as any).pixelId = "lt_px_c70df3fcaea2";
     const a = document.createElement("script");
     a.setAttribute("async", "");
     a.setAttribute("defer", "");
-    a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+    a.setAttribute("src", "https://lowtrack.com.br/pixel.js");
     document.head.appendChild(a);
   }, []);
 
