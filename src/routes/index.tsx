@@ -772,8 +772,8 @@ const PAGE_BODY_RAW = `
 
       <!-- VSL -->
       <div class="hero-real-img-wrap" style="background:transparent;box-shadow:none;padding:0;max-width:420px;margin:2rem auto">
-        <style>wistia-player[media-id='4c8lgbn4f0']:not(:defined){background:center / contain no-repeat url('https://fast.wistia.com/embed/medias/4c8lgbn4f0/swatch');display:block;filter:blur(5px);padding-top:177.78%;}</style>
-        <wistia-player media-id="4c8lgbn4f0" aspect="0.5625"></wistia-player>
+        <style>wistia-player[media-id='lu05l039f5']:not(:defined){background:center / contain no-repeat url('https://fast.wistia.com/embed/medias/lu05l039f5/swatch');display:block;filter:blur(5px);padding-top:177.78%;}</style>
+        <wistia-player media-id="lu05l039f5" aspect="0.5625"></wistia-player>
       </div>
 
       <a href="#pricing" class="btn-primary">
@@ -1277,7 +1277,7 @@ function Index() {
     s1.async = true;
     document.head.appendChild(s1);
     const s2 = document.createElement("script");
-    s2.src = "https://fast.wistia.com/embed/4c8lgbn4f0.js";
+    s2.src = "https://fast.wistia.com/embed/lu05l039f5.js";
     s2.async = true;
     s2.type = "module";
     document.head.appendChild(s2);
